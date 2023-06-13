@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3{
+    background-color: #B5FFFE;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+body{
+    background-color: #E8F2F2;
+    margin: 20px 80px;
+}
+.intro{
+    margin:10px 30px;
+    font-size:large;
+    display: flex;
+    justify-content: center;
+}
+.peliculas{
+    margin:10px 40px;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+}
+.peliculas:hover{
+    transform: scale(1.5);
+}
+.imagen{
+    margin:30px;
+}
+.poster{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+p{
+    margin: 20px 10px;
+}
+footer{
+    background-color: #B5FFFE;
+    display: flex;
+    justify-content: center;
+    font-size:larger;
+}

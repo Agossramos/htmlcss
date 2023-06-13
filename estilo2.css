@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3{
+    background-color: #FFE4B6;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+h3:hover{
+    transform: scale(2);
+}
+body{
+    background: rgb(132,238,227);
+    background: linear-gradient(90deg, rgba(132,238,227,1) 2%, rgba(255,160,122,0.9248074229691877) 99%);
+    margin: 20px 80px;
+}
+.intro{
+    margin:10px 30px;
+    font-size:large;
+    display: flex;
+    justify-content: center;
+}
+
+.peliculas{
+    margin:10px 40px;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+}
+ol {
+    list-style-type:circle;
+}
+.imagen{
+    margin:30px;
+}
+img:hover{
+    transform: scale(1.5);
+}
+.poster{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+p{
+    margin: 20px 10px;
+}
+.argumento{
+    font-size: larger;
+}
+footer{
+    background-color: #FFE4B6;
+    display: flex;
+    justify-content: center;
+    font-size:larger;
+}
