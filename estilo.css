@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 h3{
-    background-color: #B5FFFE;
+    background-image: url(./fondo-de-color-azul-claro-para-texturas-y-diseño-banners-web-199690632.webp);
     display: flex;
     justify-content: center;
-    
+    font-size: xx-large;
 }
 body{
-    background-color: #E8F2F2;
+    background-color:azure;
     margin: 20px 80px;
 }
 .intro{
@@ -32,8 +32,9 @@ p{
     margin: 20px 10px;
 }
 footer{
-    background-color: #B5FFFE;
+    background-image: url(./fondo-de-color-azul-claro-para-texturas-y-diseño-banners-web-199690632.webp);
     display: flex;
     justify-content: center;
+    font-style: italic;
     font-size:larger;
 }

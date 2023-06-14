@@ -4,13 +4,16 @@
     box-sizing: border-box;
 }
 h3{
-    background-color: #B5FFFE;
+    background-image: url(Fondos-para-paginas-web-02.jpg);
     display: flex;
     justify-content: center;
-    font-style: italic;
+    font-style:italic;
+    font-family:monospace;
+    font-size: xx-large;
 }
 body{
-    background-color: #E8F2F2;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     margin: 20px 80px;
 }
 .intro{
@@ -28,8 +31,14 @@ body{
 .peliculas:hover{
     transform: scale(1.5);
 }
+ol {
+    list-style-type:upper-roman;
+}
 .imagen{
     margin:30px;
+}
+img:hover{
+    transform: translateY(3in);
 }
 .poster{
     display: flex;
@@ -39,8 +48,13 @@ body{
 p{
     margin: 20px 10px;
 }
+.argumento{
+    text-align:justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-style: double;
+}
 footer{
-    background-color: #B5FFFE;
+    background-image: url(./Fondos-para-paginas-web-02.jpg);
     display: flex;
     justify-content: center;
     font-size:larger;

@@ -20,8 +20,7 @@ body{
 .intro{
     margin:10px 30px;
     font-size:large;
-    display: flex;
-    justify-content: center;
+    
 }
 
 .peliculas{
@@ -30,18 +29,22 @@ body{
     display: flex;
     justify-content: center;
 }
+.pelis{
+    margin:40px 40px;
+    display: flex;
+    justify-content:center;
+}
 ol {
     list-style-type:circle;
 }
 .imagen{
     margin:30px;
+    text-align: center;
 }
 img:hover{
     transform: scale(1.5);
 }
 .poster{
-    display: flex;
-    justify-content: center;
     margin: 30px;
 }
 p{
@@ -49,6 +52,7 @@ p{
 }
 .argumento{
     font-size: larger;
+    margin: 50px 0px;
 }
 footer{
     background-color: #FFE4B6;
